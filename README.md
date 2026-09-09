@@ -128,10 +128,7 @@ bash scripts/mine_build_smoke.sh
 ## Main documentation
 
 - `docs/MINE_BUILDING.md`
-- `docs/EXPECTED_UPGRADES.md`
 - `docs/FORMAT_SPEC.md`
 - `docs/ACQUISITION.md`
 - `docs/CORPUS_EXCHANGE.md`
-- `docs/CLEAN_STREAM.md`
-- `docs/ROADMAP_TO_MINE_BUILD.md`
 - `docs/BHB_CHKR_BRIDGE.md`
