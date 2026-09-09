@@ -1,0 +1,82 @@
+{
+  "format": "BNP-STARTER-CORPUS",
+  "version": 1,
+  "purpose": "Offline smoke-test corpus only; canonical mainnet blocks 0-9 for each starter chain.",
+  "chains": {
+    "BTC": {
+      "provenance": "Bitcoin mainnet canonical history; block 0 is the BIP-122 network identifier, blocks 1-9 pinned from the accepted BnP BTC corpus.",
+      "hashes": [
+        "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048",
+        "000000006a625f06636b8bb6ac7b960a8d03705d1ace08b1a19da3fdcc99ddbd",
+        "0000000082b5015589a3fdf2d4baff403e6f0be035a5d9742c1cae6295464449",
+        "000000004ebadb55ee9096c9a2f8880e09da59c0d68b1c228da88e48844a1485",
+        "000000009b7262315dbf071787ad3656097b892abffd1f95a1a022f896f533fc",
+        "000000003031a0e73735690c5a1ff2a4be82553b2a12b776fbd3a215dc8f778d",
+        "0000000071966c2b1d065fd446b1e485b2c9d9594acd2007ccbd5441cfc89444",
+        "00000000408c48f847aa786c2268fc3e6ec2af68e8468a34a28c61b7f1de0dc6",
+        "000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805"
+      ]
+    },
+    "LTC": {
+      "provenance": "Litecoin canonical blocks 0-9; Litecoin Wiki/CoinEx/AtomicWallet explorer cross-checks.",
+      "hashes": [
+        "12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2",
+        "80ca095ed10b02e53d769eb6eaf92cd04e9e0759e5be4a8477b42911ba49c78f",
+        "13957807cdd1d02f993909fa59510e318763f99a506c4c426e3b254af09f40d7",
+        "dec173dda2735ff11376b68bdfda804cede230c1fa6f1a11765cddfd8edf4398",
+        "5007153e4c02602dd2ee1df62efc727f5d5c261a942c2f254fa89fb6e6a8f0cf",
+        "f5355c3b8c86642a51a8a49c619adb9fe34093bde86ae73ed3073f2c0c4a09b1",
+        "6642a515e5c5ec0d26d49454f5da974c2cf8e59953c5cf1a170a1e14a5df9ae1",
+        "b322eec6f00018560549f83fe8cf6003fb1955fcabc302dd703b70d3022d6ffa",
+        "8f2955f003c0dac10f2d15fb1714c88479a91ece6634e7717e6c5f876131b7e6",
+        "2a22b7e424fbdaa8fbbfc80db76e151ff3ab5f83df2bed6e57610994352ff7ff"
+      ]
+    },
+    "XMR": {
+      "provenance": "Monero canonical blocks 0-9; Blockchair first-page history, with heights 1 and 10 additionally anchored by Monero Core checkpoints.",
+      "hashes": [
+        "418015bb9ae982a1975da7d79277c2705727a56894ba0fb246adaabb1f4632e3",
+        "771fbcd656ec1464d3a02ead5e18644030007a0fc664c0a964d30922821a8148",
+        "e2914694b698fb417eebaebad3fed4d13e8f670119c95c6e3fa83c1d45311520",
+        "0d2f8154aa60b4fe57424fca00218cdefee14a073b7aeaac67c9cb11f83aca30",
+        "cce590fc0548e2ccfe8268ed72332f316cb016cb4ee47b4ccabe82685c145867",
+        "68a271cac6ab97ccdf5fdf5e93cf36efff9686dd179763f45c9b0febabfda99a",
+        "b034aac165043048c694c8b31e30460fb4526773fc885fdec95719e932ecdb98",
+        "ad8b535430d1ec69c860bce1920d8b7a7c6a8640e065d36eef8ac71fbdb895a6",
+        "909d85f395e1c49d3712a59fe97f81b2e25e8c8dc20e58de0946216af2d7c2ba",
+        "0481b0b5f018333caffa62b67253ea32481fcd692be6a375ab2c84eb967ae63e"
+      ]
+    },
+    "BCH": {
+      "provenance": "Bitcoin Cash shares Bitcoin's canonical pre-fork history; blocks 0-9 are therefore byte-identical Bitcoin block headers/hashes.",
+      "hashes": [
+        "000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f",
+        "00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048",
+        "000000006a625f06636b8bb6ac7b960a8d03705d1ace08b1a19da3fdcc99ddbd",
+        "0000000082b5015589a3fdf2d4baff403e6f0be035a5d9742c1cae6295464449",
+        "000000004ebadb55ee9096c9a2f8880e09da59c0d68b1c228da88e48844a1485",
+        "000000009b7262315dbf071787ad3656097b892abffd1f95a1a022f896f533fc",
+        "000000003031a0e73735690c5a1ff2a4be82553b2a12b776fbd3a215dc8f778d",
+        "0000000071966c2b1d065fd446b1e485b2c9d9594acd2007ccbd5441cfc89444",
+        "00000000408c48f847aa786c2268fc3e6ec2af68e8468a34a28c61b7f1de0dc6",
+        "000000008d9dc510f23c2657fc4f67bea30078cc05a90eb89e84cc475c080805"
+      ]
+    },
+    "DGB": {
+      "provenance": "DigiByte canonical blocks 0-9; pinned from public explorer history, genesis independently matches DigiByte network parameters.",
+      "hashes": [
+        "7497ea1b465eb39f1c8f507bc877078fe016d6fcb6dfad3a64c98dcc6e1e8496",
+        "4da631f2ac1bed857bd968c67c913978274d8aabed64ab2bcebc1665d7f4d3a0",
+        "b4f1f2d32cc98e86f5a2525ced41d6ebd1d0613806ea8b9cfcc56226df53275d",
+        "c2fd05e110a36bbc757b3bcc13748875706f8539fb837bbf444b3e91e1116640",
+        "7463ac7bf98c9cce783d93f2fcb821c55d91268c9c12aaccbbe2b16112cf0122",
+        "c1caf8d2efcf41ef44178a6818c4ab2f5eebe848091815043083da48ba0a832d",
+        "2f50feac2a157e2967a42f5d9bbbccf83c233e8d80b9214a0be891924212f135",
+        "698deeb7299b46dafa2c980003c1d9b5e2c07b25922b62ee2955cf43072f3037",
+        "f52d3100dbda6226fe30185dc41058ba0c426606fcc35f67a55a3593ee7779c8",
+        "fd6b2f123ff4f62cf5fd5e651ea0396956fc459c95607b2ee5cd10869280ca3f"
+      ]
+    }
+  }
+}
